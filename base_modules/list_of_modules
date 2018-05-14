@@ -1,0 +1,84 @@
+###################basic_components.v modules#######################
+module comp_eq3(in1,in2,equal);                     //critical path delay = 0.6ns
+module comp_eq7(in1,in2,equal);			            //critical path delay = 0.7ns	
+module comp_eq8(in1,in2,equal);                     //critical path delay = 0.7ns
+module comp_eq10(in1,in2,equal);                    //critical path delay = 0.8ns
+module comp_eq16(in1,in2,equal);                    //critical path delay = 0.85ns
+module comp_eq24(in1,in2,equal);                    //critical path delay = 1.15ns
+module comp_eq32(in1,in2,equal);                    //critical path delay = 1.15ns
+module invn #(N)(in,o);                             //critical path delay = 0.15ns
+module and2n #(N)(in1,in2,o);                       //critical path delay = 0.35ns
+module or2n #(N)(in1,in2,o);                        //critical path delay = 0.35ns
+module dffn  #(N)(in,clk,rst,o);                    
+//For the muxes, you may get a smaller critical path.
+module mux4n #(N)(in0,in1,in2,in3,sel,o);           //sel->out = 0.5ns, in->out = 0.22ns.
+module mux3n #(N)(in0,in1,in2,sel,o);               //sel->out = 0.5ns, in->out = 0.22ns.
+module mux2n #(N)(in0,in1,sel,o);                   //sel->out = 0.3ns, in->out = 0.2ns.
+module mux8n #(N)(in0,in1,...,in7,sel,o);           //sel->out = 0.7ns, in->out = 0.42ns.
+module mux32n #(N) (in0,in1,...,in32,sel,o);        //sel->out = 0.92ns, in->out = 0.64ns.
+module regn #(N)(in,clk,rst,wren,o);        
+module regn_bit_enable #(N)(clk,rst,in,mask,o);
+module bshfrlogic_5b #(WIDTH)(in,shf_val,o);        //critical path delay = 1.3ns
+module mag_comp32 (A, B, AGB, BGA);					//critical path delay = 2.62ns
+
+###################adders.v modules#######################
+module modified_full_adder(s,p,g,a,b,cin);
+module carryout(cout,p,g,cin);
+module lookahead_logic(pout,gout,c1,c2,c3,p0,g0,p1,g1,p2,g2,p3,g3,cin);
+module cla_4b(S,p,g,A,B,cin);
+module cla_16b(S,p,g,A,B,cin);
+module cla_32b(S,p,g,A,B,cin);
+module add_1b(s,cout,a,b,cin);
+module add_4b(S,cout,A,B,cin);						//critical path delay = 1.6ns
+module add_8b(S,cout,A,B,cin);						//critical path delay = 2.8ns
+module add_16b(S,cout,cout_1,A,B,cin);						//critical path delay = 3.3ns
+module add_32b(S,flag,A,B,cin,opSize);				//critical path delay = 4.6ns
+module modified_full_adder_inc_0(s,a);
+module modified_full_adder_inc(s,a,cin);
+module lookahead_logic_inc(pout,c1,c2,c3,p0,p1,p2,p3,cin);
+module lookahead_logic_inc_c0(pout,c1,c2,c3,p0,p1,p2,p3);
+module carryout_inc(cout,p,cin);
+module cla_4b_inc_b0(S,p,A);
+module cla_16b_inc_b0(S,p,A);
+module cla_32b_inc_b0(S,p,A);
+module cla_4b_inc(S,p,A,cin);
+module cla_16b_inc(S,p,A,cin);
+module cla_32b_inc(S,p,A,cin);
+module inc_1b (s,cout,a);
+module inc_4b (S,cout,A);							//critical path delay = 0.65ns
+module inc_8b (S,cout,A);							//critical path delay = 1.1ns
+module inc_16b(S,cout,A);							//critical path delay = 1.3ns
+module inc_32b(S,cout,A);							//critical path delay = 1.9ns
+module inc2_4b (S,cout,A);							//critical path delay = 0.65ns
+module inc2_8b (S,cout,A);							//critical path delay = 1.1ns
+module inc2_16b(S,cout,A);							//critical path delay = 1.3ns
+module inc2_32b(S,cout,A);							//critical path delay = 1.9ns
+module inc4_4b (S,cout,A);							//critical path delay = 0.65ns
+module inc4_8b (S,cout,A);							//critical path delay = 1.1ns
+module inc4_16b(S,cout,A);							//critical path delay = 1.3ns
+module inc4_32b(S,cout,A);							//critical path delay = 1.9ns
+
+
+module dec_1b (s,cout,a);
+module dec_4b (S,cout,A);							//critical path delay = 0.75ns
+module dec_8b (S,cout,A);							//critical path delay = 1.25ns
+module dec_16b(S,cout,A);							//critical path delay = 1.65ns
+module dec_32b(S,cout,A);							//critical path delay = 2.25ns
+module dec2_4b (S,cout,A);							//critical path delay = 0.75ns
+module dec2_8b (S,cout,A);							//critical path delay = 1.25ns
+module dec2_16b(S,cout,A);							//critical path delay = 1.65ns
+module dec2_32b(S,cout,A);							//critical path delay = 2.25ns
+module dec4_4b (S,cout,A);							//critical path delay = 0.75ns
+module dec4_8b (S,cout,A);							//critical path delay = 1.25ns
+module dec4_16b(S,cout,A);							//critical path delay = 1.65ns
+module dec4_32b(S,cout,A);							//critical path delay = 2.25ns
+
+###################buffers.v modules#######################
+#############Read code comments before using.##############
+module customrf8 #(WIDTH) (clk,rst,rdaddr,rddata,full,empty_n,wraddr,wren,wrdata);
+module buffifo8 #(WIDTH) (clk,rst,push,in_data,pop,out_data,data_vld,full);
+
+/////////////////////////shifter.v modules////////////////////////////////////////
+
+module sar_5b (IN,shf,OUT,cflag);					//critical path delay =	0.64ns
+module sal_5b (IN,shf,OUT,cflag);					//critical path delay =	0.64ns

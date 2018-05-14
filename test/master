@@ -1,0 +1,26 @@
+/home/projects/courses/spring_18/ee382n-16120/lib/time -v 
+/home/projects/courses/spring_18/ee382n-16120/lib/lib1  
+/home/projects/courses/spring_18/ee382n-16120/lib/lib2  
+/home/projects/courses/spring_18/ee382n-16120/lib/lib3  
+/home/projects/courses/spring_18/ee382n-16120/lib/lib4
+/home/projects/courses/spring_18/ee382n-16120/lib/lib5
+/home/ecelrc/students/psahu/382N/uarch/peripheral_modules/bus_ctrl.v	
+/home/ecelrc/students/psahu/382N/uarch/base_modules/defines.v
+/home/ecelrc/students/psahu/382N/uarch/base_modules/adders.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/WB.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/write-back.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/exec.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/EX.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/mem-pipe.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/MP.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/tlb-pipe.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/TP.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/addr-gen.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/AG.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/reg-read.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/RR.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/wb_buf.v
+/home/ecelrc/students/psahu/382N/uarch/base_modules/shifters.v
+/home/ecelrc/students/psahu/382N/uarch/base_modules/basic_components.v
+/home/ecelrc/students/psahu/382N/uarch/registers.v
+top.v

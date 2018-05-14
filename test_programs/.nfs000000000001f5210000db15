@@ -1,0 +1,21 @@
+0:   ba 00 08 00 00          //mov    $0x800,%edx
+5:   8e da                   //mov    %edx,%ds
+7:   b8 01 10 02 20          //mov    $0x20021001,%eax
+c:   89 02                   //mov    %eax,(%edx)
+e:   89 42 04                //mov    %eax,0x4(%edx)
+11:   0f 6f 02  	           //movq   (%edx),%xmm0
+14:   0f 6f 4a 01          //movq   0x1(%edx),%xmm1
+18:   0f 6f 52 02          //movq   0x2(%edx),%xmm2
+1c:   0f 6f 5a 03          //movq   0x3(%edx),%xmm3
+20:   0f 6f 62 04          //movq   0x4(%edx),%xmm4
+24:   0f 6f 6a 05          //movq   0x5(%edx),%xmm5
+28:   0f 6f 72 06          //movq   0x6(%edx),%xmm6
+2c:   0f 6f 7a 07          //movq   0x7(%edx),%xmm7
+30:   0f fd 02             //paddw  (%edx),%xmm0
+33:   0f fe ca             //paddd  %xmm2,%xmm1
+36:   f7 12                   //notl   (%edx)
+38:   ba fd 0f 00 00          //mov    $0xffd,%edx
+3d:   0f ed 0a             //paddsw (%edx),%xmm1
+40:   0f 7f 0a          //movq   %xmm1,(%edx)
+44:   0f 6f 7a 0c          //movq   0xc(%edx),%xmm7
+48:   f4                      //hlt

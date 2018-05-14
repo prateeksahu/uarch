@@ -1,0 +1,135 @@
+diff --git a/pipe/exec.v b/pipe/exec.v
+index 1dc97f8..b0cd8c6 100644
+--- a/pipe/exec.v
++++ b/pipe/exec.v
+@@ -80,9 +80,11 @@ wire [1:0] o_memWen, o_drSegWen, o_dr2Wen, o_dr1Wen;
+ 
+   wire realInvalidate, popStackByWb;
+   and2$ aps(popStackByWb, wbPopStack, i_inv);
++  //wire realInvalidate, npopStackByWb;
++  //inv1$ aps(npopStackByWb, wbPopStack);//Prob?
+ 
+ 	// Next State
+-	wire cmpi, pp, ncmpi, npp, nsimd, stI, stS, next, cst, x, uoppp, nuoppp, tS, invalidateMemReq, invalidate;
++	wire cmpi, pp, ncmpi, npp, nsimd, stI, stS, next, cst, x, uoppp, nuoppp, tS, invalidateMemReq, ninvalidateMemReq, invalidate;
+   wire t_v, n_v;
+ 	// OR (CMPS, CMPEXCG, SIMD, PUSH, POP) = IDLE's next state
+ 	nor2$ nsna1(ncmpi, isCMPS, isCMPE);
+@@ -99,6 +101,7 @@ wire [1:0] o_memWen, o_drSegWen, o_dr2Wen, o_dr1Wen;
+ 	and2$ nsa3(stS, tS, resetState);
+ 	mux2$ nsm1(next, stI, stS, cst);
+ 	//stall = (x xnor cst) and istall
++  //inv1$ afi2(ninvalidateMemReq, invalidateMemReq);
+ 	xnor2$ nsx1(t1, x, cst);
+ 	and4$ nsa2(stall, istall, t1, i_v, ~invalidateMemReq);
+ 
+@@ -106,9 +109,12 @@ wire [1:0] o_memWen, o_drSegWen, o_dr2Wen, o_dr1Wen;
+   // Valid Latch?
+   comp_eq32 comp1(invUopEIP, i_EIP, eq);
+   and2$ na11(invalidateMemReq, eq, uopInv);
++  //and2$ na112(si, i_inv, npopStackByWb);//Prob?
+   inv1$ i10(n_v, t_v);
+   mux2$ m30(t_v, i_v, 1'b0, stall);
+   or2$ a106(invalidate, i_inv, invalidateMemReq);
++  //or2$ a106(invalidate, si, invalidateMemReq);//Prob?
++  or2$ a107(tx, repneJMP, isCMPS);
+   nor4$ a105(instNotDone, repneJMP|isCMPS, lastuop, isCALL, interrupt);
+   nor3$ a16(o_v, n_v, invalidate, instNotDone);
+ 
+@@ -129,6 +135,7 @@ wire [1:0] o_memWen, o_drSegWen, o_dr2Wen, o_dr1Wen;
+     //mux4n #(32) muxx2({32'b0}, {24'b0,i_op2[7:0]}, {16'b0,i_op2[15:0]}, i_op2, i_opSize, temp2data);
+     
+     invn #(32) i1(reg1, op1_neg);
++    or2$ o10(compInst2, cmpe2, cmps2);
+     mux3n #(32) m1(i_op1, op1_neg, i_nEIP, {trueJMP,(cmpe2|cmps2)}, op1);
+ 
+     assign op2 = i_op2;
+@@ -170,12 +177,15 @@ wire [1:0] o_memWen, o_drSegWen, o_dr2Wen, o_dr1Wen;
+     // non zero uop
+     nor2$ no1(zeroUop, uOpNo[0], uOpNo[1]);
+     xor2$ xo1(n3, uOpNo[0], uOpNo[1]);
++    inv1$ i14(nuop0, uOpNo[0]);
++    and2$ a50(uop2, uOpNo[1], nuop0);
+     inv1$ i3(nonzero, zeroUop);
++    inv1$ i13(nisRet, isRET);
+     nor2$ n1(ncor, isCALL, isRET);
+     and3$ a5(uoppp, pp, nonzero, ncor);
+     or2$ o5(savedD1, uoppp, cmpe2);
+     and3$ a6(uoppop, isPOP, nonzero, ncor);
+-	and2$ a57(cmps1, isCMPS, uOpNo[0]);
++	  and2$ a57(cmps1, isCMPS, uOpNo[0]);
+     and2$ a7(cmps2, isCMPS, uOpNo[1]&~uOpNo[0]);
+     and2$ a8(cmpe2, isCMPE, uOpNo[1]);
+     and2$ a9(pop2, isPOP, uOpNo[1]);
+@@ -187,13 +197,14 @@ wire [1:0] o_memWen, o_drSegWen, o_dr2Wen, o_dr1Wen;
+     and3$ a14(ret3, isRET, uOpNo[1], uOpNo[0]);
+     or3$ or1(d1AsEIP, ret3, interrupt, trueJMP);
+     and2$ a15(retn3, isRET, n3);
++    and2$ a115(reg2Tod2, nisRet, pop2);
+     or2$ o4(saveDr1, pop2, cmpe2);
+ 
+     wire [31:0] to_data1, to_data2;
+     wire [1:0]  to_memWen, to_dr2Wen;
+     mux3n #(32) m4(tdata1, shufL, reg2, {isCMPS,isSHUF}, t1data);
+     mux2n #(32) m5(t1data, reg1, savedD1, t1data1);
+-    mux3n #(32) m6(i_op1, reg2, reg1, {isSIMD,(pop2&~isRET)}, tdata2);
++    mux3n #(32) m6(i_op1, reg2, reg1, {isSIMD,(pop2&~isRET)}, tdata2);//Changed
+     mux2n #(32) m7(tdata2, shufH, isSHUF, to_data2);
+     
+     wire [1:0] pushSel;
+@@ -237,8 +248,10 @@ wire [1:0] o_memWen, o_drSegWen, o_dr2Wen, o_dr1Wen;
+     or2$ a03(t1mispred, i_bp_taken, c8);	
+     and4$ a02(mispred, t1mispred, tmispred, i_v, br_valid);
+     inv1$ i6(nfarRet, farJMP);
++    or2$ o7(nearJMP, trueJMP, isRET);
+     and3$ a18(br_valid, trueJMP|isRET, nfarRet, i_v);
+     or3$ o6(o_inv, i_inv&~popStackByWb, mispred, term);
++    //or3$ o6(o_inv, i_inv, mispred, term);
+ 
+ 	xnor2$ xn0(cn[0], flag_cmp[0], oldflags[0]),
+            xn1(cn[1], flag_cmp[1], oldflags[1]),
+@@ -256,6 +269,7 @@ wire [1:0] o_memWen, o_drSegWen, o_dr2Wen, o_dr1Wen;
+    	nor2$ na3(c8, c6, c7);
+ 
+    	wire tdr1Wen, tdr2Wen, tdrSegWen, tmemWen;
++    or2$ o8(invRegW, dr1Wen, term1);
+    	mux2$ m11(tdr1Wen,1'b0,(dr1Wen|term1),c8),
+    		  m12(tdr2Wen,1'b0,dr2Wen,c8),
+    		  m13(tdrSegWen,1'b0,segDWen,c8),
+@@ -274,12 +288,7 @@ wire [1:0] o_memWen, o_drSegWen, o_dr2Wen, o_dr1Wen;
+    	            m22(i_PA2, latchedPA2, cst, o_PA2),
+    	            m23(15'b0, i_PA1, cst, o_PA3),
+    	            m24(15'b0, i_PA2, cst, o_PA4);
+-   	/*
+-   	mux2n #(15) m21(i_PA1, latchedPA1, cst&isSIMD, o_PA3),
+-   	            m22(i_PA2, latchedPA2, cst&isSIMD, o_PA4),
+-   	            m23(15'b0, i_PA1, cst|~isSIMD, o_PA1),
+-   	            m24(15'b0, i_PA2, cst|~isSIMD, o_PA2);
+-   	*/
++
+ 	wire [31:0] txdata1;
+    	mux2n #(2) m25({1'b0,i_spill}, {latchSpill[0],i_spill}, cst, o_spill);
+    	mux3n #(32) m26(data1, latchedD1, repne_cond1, {repneJMP, retn2}, txdata1);
+@@ -302,6 +311,7 @@ comp_eq2 comp1eq(uOpNo, 2'b1, uop1);
+ and4$ axas(saveMemCMPE, isCMPE, i_v, uop1, memWen);
+ regn #(1) blahh(memWen, clk, rst, saveMemCMPE, uop2memwen);
+ 
++and3$ afa3(memCmpeZ, isCMPE, i_v, o_eflags[3]);
+ mux2n #(2) muxxx1(to_memWen, {1'b0,uop2memwen}, (isCMPE&i_v&o_eflags[3]), o_memWen);
+ mux2n #(32) muxxx2(to_data1, to_data2, isCMPE&i_v&o_eflags[3], o_data1);
+ mux2n #(32) muxxx3(to_data2, to_data1, isCMPE&i_v&o_eflags[3], o_data2);
+@@ -461,10 +471,10 @@ module sat_adder (S, A, B, isSAT);
+ 	inv1$ i2(v2, A[31]);
+ 
+ 
+-	mux2n #(15) m1({15{v1}}, s1[14:0], ~sat1, S[14:0]),
+-				m2({15{v2}}, s2[14:0], ~sat1, S[30:16]);
+-	mux2$ m3(S[15], A[15], s1[15], ~sat1),
+-		  m4(S[31], A[31], s2[15], ~sat2);
++	mux2n #(15) m1(s1[14:0], {15{v1}}, sat1, S[14:0]),
++				m2(s2[14:0], {15{v2}}, sat2, S[30:16]);
++	mux2$ m3(A[15], S[15], s1[15], sat1),
++		  m4(A[31], S[31], s2[15], sat2);
+ 
+ endmodule
+ 

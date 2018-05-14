@@ -1,0 +1,11 @@
+/home/projects/courses/spring_18/ee382n-16120/lib/time -v 
+/home/projects/courses/spring_18/ee382n-16120/lib/lib1  
+/home/projects/courses/spring_18/ee382n-16120/lib/lib2  
+/home/projects/courses/spring_18/ee382n-16120/lib/lib3  
+/home/projects/courses/spring_18/ee382n-16120/lib/lib4
+/home/projects/courses/spring_18/ee382n-16120/lib/lib5
+/home/ecelrc/students/psahu/382N/uarch/base_modules/defines.v
+/home/ecelrc/students/psahu/382N/uarch/base_modules/adders.v
+/home/ecelrc/students/psahu/382N/uarch/base_modules/basic_components.v
+/home/ecelrc/students/psahu/382N/uarch/pipeline_stages/wb_buf.v
+wbuf.v

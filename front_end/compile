@@ -1,0 +1,22 @@
+/home/projects/courses/spring_18/ee382n-16120/lib/time -v 
+./../library_modules/lib1 
+./../library_modules/lib2 
+./../library_modules/lib3 
+./../library_modules/lib4 
+./../library_modules/lib5 
+./../library_modules/lib6
+./../base_modules/adders.v 
+./../base_modules/defines.v
+./../base_modules/basic_components.v
+./../base_modules/shifters.v
+size_comp.v
+init_decode_signals.v
+decode1.v
+instruction_buffer.v
+fetch.v
+bpred.v
+bpred_test.v
+test.v
+decode2.v
+control_store.v
+./../peripheral_modules/tlb.v

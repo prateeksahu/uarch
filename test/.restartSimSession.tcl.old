@@ -1,0 +1,282 @@
+# Begin_DVE_Session_Save_Info
+# DVE restart session
+# Saved on Sat Apr 21 20:32:28 2018
+# Designs open: 1
+#   Sim: /home/ecelrc/students/psahu/382N/uarch/test/simv
+# Toplevel windows open: 3
+# 	TopLevel.1
+# 	TopLevel.2
+# 	TopLevel.3
+#   Source.1: timeunit
+#   Wave.1: 317 signals
+#   Wave.2: 120 signals
+#   Group count = 6
+#   Group top signal count = 317
+#   Group globalRF signal count = 69
+#   Group GPR[3].REG signal count = 30
+#   Group GPR[2].REG signal count = 30
+#   Group GPR[1].REG signal count = 30
+#   Group GPR[0].REG signal count = 30
+# End_DVE_Session_Save_Info
+
+# DVE version: K-2015.09-SP1_Full64
+# DVE build date: Nov 24 2015 21:15:24
+
+
+#<Session mode="Restart" path=".restartSimSession.tcl" type="Debug">
+
+gui_set_loading_session_type Restart
+gui_continuetime_set
+gui_clear_window -type Wave
+gui_clear_window -type List
+
+# Application preferences
+gui_set_pref_value -key app_default_font -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+gui_src_preferences -tabstop 8 -maxbits 24 -windownumber 1
+#<WindowLayout>
+
+# DVE top-level session
+
+
+# Create and position top-level window: TopLevel.1
+
+set TopLevel.1 TopLevel.1
+
+# Docked window settings
+set HSPane.1 HSPane.1
+set Hier.1 Hier.1
+set DLPane.1 DLPane.1
+set Data.1 Data.1
+set Console.1 Console.1
+gui_sync_global -id ${TopLevel.1} -option true
+
+# MDI window settings
+set Source.1 Source.1
+gui_update_layout -id ${Source.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false}}
+
+# End MDI window settings
+
+
+# Create and position top-level window: TopLevel.2
+
+set TopLevel.2 TopLevel.2
+
+# Docked window settings
+gui_sync_global -id ${TopLevel.2} -option true
+
+# MDI window settings
+set Wave.1 Wave.1
+gui_update_layout -id ${Wave.1} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 362} {child_wave_right 884} {child_wave_colname 182} {child_wave_colvalue 176} {child_wave_col1 0} {child_wave_col2 1}}
+
+# End MDI window settings
+
+
+# Create and position top-level window: TopLevel.3
+
+set TopLevel.3 TopLevel.3
+
+# Docked window settings
+gui_sync_global -id ${TopLevel.3} -option true
+
+# MDI window settings
+set Wave.2 Wave.2
+gui_update_layout -id ${Wave.2} {{show_state maximized} {dock_state undocked} {dock_on_new_line false} {child_wave_left 352} {child_wave_right 858} {child_wave_colname 174} {child_wave_colvalue 174} {child_wave_col1 0} {child_wave_col2 1}}
+
+# End MDI window settings
+
+
+#</WindowLayout>
+
+#<Database>
+
+gui_set_precision 10ps
+gui_set_time_units 1ns
+#</Database>
+
+# DVE Global setting session: 
+
+
+# Global: Breakpoints
+
+# Global: Bus
+
+# Global: Expressions
+
+# Global: Signal Time Shift
+
+# Global: Signal Compare
+
+# Global: Signal Groups
+gui_load_child_values {top.globalRF.GPR[3].REG}
+gui_load_child_values {top.globalRF.GPR[0].REG}
+gui_load_child_values {top.globalRF.GPR[2].REG}
+gui_load_child_values {top.globalRF}
+gui_load_child_values {top.globalRF.GPR[1].REG}
+gui_load_child_values {top}
+
+
+set _session_group_2 top
+gui_sg_create "$_session_group_2"
+set top "$_session_group_2"
+
+gui_sg_addsignal -group "$_session_group_2" { top.EFlag top.EIP top.addr_tlb top.ag_CS top.ag_Dflag top.ag_EIP top.ag_bp_taken top.ag_bp_tgt top.ag_currCS top.ag_dr1 top.ag_dr2 top.ag_drSeg top.ag_flag_cmp top.ag_flag_mod top.ag_flag_used top.ag_imm8 top.ag_nEIP top.ag_opSz1 top.ag_opSz2 top.ag_segRc top.ag_segRc_lim top.ag_src1 top.ag_src2 top.ag_v top.ag_virt_addr top.ago_CS top.ago_Dflag top.ago_EIP top.ago_bp_taken top.ago_bp_tgt top.ago_currCS top.ago_dr1 top.ago_dr2 top.ago_drSeg top.ago_flag_cmp top.ago_flag_mod top.ago_flag_used top.ago_imm8 top.ago_nEIP top.ago_opSz1 top.ago_opSz2 top.ago_segRc top.ago_segRc_lim top.ago_src1 top.ago_src2 top.ago_v top.ago_virt_addr top.agstall top.b_tgt_v top.bp_correct top.cEIP top.clk top.count top.dcache_data top.dcache_rreq top.dcache_v top.eflags top.ex_CS top.ex_Dflag top.ex_EIP top.ex_PA1 top.ex_PA2 top.ex_PA3 top.ex_PA4 top.ex_data1 top.ex_data2 top.ex_dr1 top.ex_dr2 top.ex_drSeg top.ex_eflags top.ex_nEIP top.ex_opSz1 top.ex_opSz2 top.ex_size1 top.ex_size2 top.ex_spill top.ex_v top.excp_id top.exo_CS top.exo_Dflag top.exo_EIP top.exo_PA1 top.exo_PA2 top.exo_PA3 top.exo_PA4 top.exo_data1 top.exo_data2 top.exo_dr1 top.exo_dr2 top.exo_drSeg top.exo_eflags top.exo_nEIP top.exo_opSz1 top.exo_opSz2 top.exo_size1 top.exo_size2 top.exo_spill top.exo_v top.exstall top.glb_inv top.gprR1 top.gprR2 top.gpr_data top.gpr_dr top.grpWen top.i_CS top.i_Dflag top.i_EIP top.i_base top.i_bp_taken top.i_bp_tgt top.i_currCS top.i_disp top.i_flag_cmp top.i_flag_mod top.i_flag_used top.i_idx top.i_imm8 top.i_imm top.i_indir top.i_nEIP top.i_opSize1 top.i_opSize2 top.i_opSizeb top.i_opSizei top.i_scale top.i_segR1 top.i_segR2 top.i_sr1 top.i_sr2 top.i_v top.limit top.mem_addr top.mem_data top.mem_size top.memstall top.mp_CS top.mp_Dflag top.mp_EIP top.mp_PA1 top.mp_PA2 top.mp_bp_taken top.mp_bp_tgt top.mp_currCS top.mp_dr1 top.mp_dr2 top.mp_drSeg top.mp_flag_cmp top.mp_flag_mod top.mp_flag_used top.mp_imm8 top.mp_nEIP top.mp_op1 top.mp_op2 top.mp_opSz1 top.mp_opSz2 top.mp_size1 top.mp_size2 top.mp_spill top.mp_v top.mpo_CS top.mpo_Dflag top.mpo_EIP top.mpo_PA1 top.mpo_PA2 top.mpo_bp_taken top.mpo_bp_tgt top.mpo_currCS top.mpo_dr1 top.mpo_dr2 top.mpo_drSeg top.mpo_flag_cmp top.mpo_flag_mod top.mpo_flag_used top.mpo_imm8 top.mpo_nEIP top.mpo_op1 top.mpo_op2 top.mpo_opSz1 top.mpo_opSz2 top.mpo_size1 top.mpo_size2 top.mpo_spill top.mpo_v top.opSize top.pagefault top.rdep top.req_rvalid top.rf1 top.rf2 top.rr_CS top.rr_Dflag top.rr_EIP top.rr_addr1 top.rr_addr2 top.rr_bp_taken top.rr_bp_tgt top.rr_currCS top.rr_dr1 top.rr_dr2 top.rr_drSeg top.rr_flag_cmp top.rr_flag_mod top.rr_flag_used top.rr_imm8 top.rr_indir top.rr_limit top.rr_nEIP top.rr_opSz1 top.rr_opSz2 top.rr_segRc1 top.rr_src1 top.rr_src2 top.rr_v top.rro_CS top.rro_Dflag top.rro_EIP top.rro_addr1 top.rro_addr2 top.rro_bp_taken top.rro_bp_tgt top.rro_currCS top.rro_dr1 top.rro_dr2 top.rro_drSeg top.rro_flag_cmp top.rro_flag_mod top.rro_flag_used top.rro_imm8 top.rro_indir top.rro_limit top.rro_nEIP top.rro_opSz1 top.rro_opSz2 top.rro_segRc1 top.rro_src1 top.rro_src2 top.rro_v top.rrstall top.rst top.segWen top.seg_dr top.segr_data top.segrc1 top.segrc1_sel top.segrc2 top.segrc2_sel top.src1 top.src1_sel top.src2 top.src2_sel top.srf1 top.srf2 top.srfR1 top.srfR2 top.sz1 top.sz2 top.tlbentry top.tp_CS top.tp_Dflag top.tp_EIP top.tp_bp_taken top.tp_bp_tgt top.tp_currCS top.tp_dr1 top.tp_dr2 top.tp_drSeg top.tp_false_of top.tp_flag_cmp top.tp_flag_mod top.tp_flag_used top.tp_imm8 top.tp_nEIP top.tp_opSz1 top.tp_opSz2 top.tp_phys_addr top.tp_reqSize top.tp_spill top.tp_src1 top.tp_src2 top.tp_v top.tpo_CS top.tpo_Dflag top.tpo_EIP top.tpo_bp_taken top.tpo_bp_tgt top.tpo_currCS top.tpo_dr1 top.tpo_dr2 top.tpo_drSeg top.tpo_false_of top.tpo_flag_cmp top.tpo_flag_mod top.tpo_flag_used top.tpo_imm8 top.tpo_nEIP top.tpo_opSz1 top.tpo_opSz2 top.tpo_phys_addr top.tpo_reqSize top.tpo_spill top.tpo_src1 top.tpo_src2 top.tpo_v top.tpstall top.v top.wb_inv top.wbstall top.wrV top.xmmReadMask top.xmmWen top.xmm_data top.xmm_dr top.xmrR1 top.xmrR2 top.xrc1 }
+gui_sg_addsignal -group "$_session_group_2" { top.xrc2 }
+
+set _session_group_3 globalRF
+gui_sg_create "$_session_group_3"
+set globalRF "$_session_group_3"
+
+gui_sg_addsignal -group "$_session_group_3" { top.globalRF.mmx_rden0 top.globalRF.mmx_rden1 top.globalRF.gpr_wrmask_t top.globalRF.mmx_rdaddr0 top.globalRF.mmx_rdaddr1 top.globalRF.rst top.globalRF.wg31 top.globalRF.gpr_wren top.globalRF.segr_wraddr top.globalRF.mmx_rddata0 top.globalRF.wgsel0 top.globalRF.wgsel1 top.globalRF.mmx_rddata1 top.globalRF.gpr_rden0 top.globalRF.clk top.globalRF.gpr_rden1 top.globalRF.wg41 top.globalRF.mmx_wrdata_t top.globalRF.segr_rdaddr0 top.globalRF.segr_rdaddr1 top.globalRF.gpr_rdaddr0 top.globalRF.gpr_rdaddr1 top.globalRF.gpr_wrdata top.globalRF.is01 top.globalRF.eip_wrdata top.globalRF.mmx_wrdata top.globalRF.mmx_data0 top.globalRF.segr_rddata0 top.globalRF.mmx_data1 top.globalRF.segr_rddata1 top.globalRF.eflags_wren top.globalRF.gpr_rddata0 top.globalRF.eflags_mask top.globalRF.gpr_rddata1 top.globalRF.segr_rddata1_t top.globalRF.gpr_wrmask top.globalRF.segr_rddata0_t top.globalRF.mask_w1 top.globalRF.gpr_wrdata_t top.globalRF.mask_w2 top.globalRF.mmx_wrmask top.globalRF.mmx_rdmask0 top.globalRF.mmx_rdmask1 top.globalRF.gpr_data0 top.globalRF.gpr_data1 top.globalRF.gpr_wraddr top.globalRF.eip top.globalRF.segr_wren top.globalRF.mmx_wraddr top.globalRF.wg11 top.globalRF.segr_wrdata top.globalRF.wg12 top.globalRF.gpr_rdmask0 top.globalRF.fill0 top.globalRF.gpr_rdmask1 top.globalRF.fill1 top.globalRF.eflags top.globalRF.mmx_wrmask_t top.globalRF.eflags_wrdata top.globalRF.mmx_wren top.globalRF.eip_wren top.globalRF.wg1 top.globalRF.wg2 top.globalRF.wg3 top.globalRF.wg4 top.globalRF.wg21 top.globalRF.eflags_wrmask top.globalRF.segr_rden0 top.globalRF.segr_rden1 }
+
+set _session_group_4 {GPR[3].REG}
+gui_sg_create "$_session_group_4"
+set {GPR[3].REG} "$_session_group_4"
+
+gui_sg_addsignal -group "$_session_group_4" { {top.globalRF.GPR[3].REG.CLOCK} {top.globalRF.GPR[3].REG.IN0} {top.globalRF.GPR[3].REG.IN0_temp} {top.globalRF.GPR[3].REG.OUT1} {top.globalRF.GPR[3].REG.OUT1_temp} {top.globalRF.GPR[3].REG.OUT2} {top.globalRF.GPR[3].REG.OUT2_temp} {top.globalRF.GPR[3].REG.R1} {top.globalRF.GPR[3].REG.R1_temp} {top.globalRF.GPR[3].REG.R2} {top.globalRF.GPR[3].REG.R2_temp} {top.globalRF.GPR[3].REG.RE1} {top.globalRF.GPR[3].REG.RE1_temp} {top.globalRF.GPR[3].REG.RE2} {top.globalRF.GPR[3].REG.RE2_temp} {top.globalRF.GPR[3].REG.REG0} {top.globalRF.GPR[3].REG.REG1} {top.globalRF.GPR[3].REG.REG2} {top.globalRF.GPR[3].REG.REG3} {top.globalRF.GPR[3].REG.REG4} {top.globalRF.GPR[3].REG.REG5} {top.globalRF.GPR[3].REG.REG6} {top.globalRF.GPR[3].REG.REG7} {top.globalRF.GPR[3].REG.WE} {top.globalRF.GPR[3].REG.WE_temp} {top.globalRF.GPR[3].REG.W} {top.globalRF.GPR[3].REG.W_temp} {top.globalRF.GPR[3].REG.flag1} {top.globalRF.GPR[3].REG.flag2} {top.globalRF.GPR[3].REG.mem_array} }
+
+set _session_group_5 {GPR[2].REG}
+gui_sg_create "$_session_group_5"
+set {GPR[2].REG} "$_session_group_5"
+
+gui_sg_addsignal -group "$_session_group_5" { {top.globalRF.GPR[2].REG.CLOCK} {top.globalRF.GPR[2].REG.IN0} {top.globalRF.GPR[2].REG.IN0_temp} {top.globalRF.GPR[2].REG.OUT1} {top.globalRF.GPR[2].REG.OUT1_temp} {top.globalRF.GPR[2].REG.OUT2} {top.globalRF.GPR[2].REG.OUT2_temp} {top.globalRF.GPR[2].REG.R1} {top.globalRF.GPR[2].REG.R1_temp} {top.globalRF.GPR[2].REG.R2} {top.globalRF.GPR[2].REG.R2_temp} {top.globalRF.GPR[2].REG.RE1} {top.globalRF.GPR[2].REG.RE1_temp} {top.globalRF.GPR[2].REG.RE2} {top.globalRF.GPR[2].REG.RE2_temp} {top.globalRF.GPR[2].REG.REG0} {top.globalRF.GPR[2].REG.REG1} {top.globalRF.GPR[2].REG.REG2} {top.globalRF.GPR[2].REG.REG3} {top.globalRF.GPR[2].REG.REG4} {top.globalRF.GPR[2].REG.REG5} {top.globalRF.GPR[2].REG.REG6} {top.globalRF.GPR[2].REG.REG7} {top.globalRF.GPR[2].REG.WE} {top.globalRF.GPR[2].REG.WE_temp} {top.globalRF.GPR[2].REG.W} {top.globalRF.GPR[2].REG.W_temp} {top.globalRF.GPR[2].REG.flag1} {top.globalRF.GPR[2].REG.flag2} {top.globalRF.GPR[2].REG.mem_array} }
+
+set _session_group_6 {GPR[1].REG}
+gui_sg_create "$_session_group_6"
+set {GPR[1].REG} "$_session_group_6"
+
+gui_sg_addsignal -group "$_session_group_6" { {top.globalRF.GPR[1].REG.CLOCK} {top.globalRF.GPR[1].REG.IN0} {top.globalRF.GPR[1].REG.IN0_temp} {top.globalRF.GPR[1].REG.OUT1} {top.globalRF.GPR[1].REG.OUT1_temp} {top.globalRF.GPR[1].REG.OUT2} {top.globalRF.GPR[1].REG.OUT2_temp} {top.globalRF.GPR[1].REG.R1} {top.globalRF.GPR[1].REG.R1_temp} {top.globalRF.GPR[1].REG.R2} {top.globalRF.GPR[1].REG.R2_temp} {top.globalRF.GPR[1].REG.RE1} {top.globalRF.GPR[1].REG.RE1_temp} {top.globalRF.GPR[1].REG.RE2} {top.globalRF.GPR[1].REG.RE2_temp} {top.globalRF.GPR[1].REG.REG0} {top.globalRF.GPR[1].REG.REG1} {top.globalRF.GPR[1].REG.REG2} {top.globalRF.GPR[1].REG.REG3} {top.globalRF.GPR[1].REG.REG4} {top.globalRF.GPR[1].REG.REG5} {top.globalRF.GPR[1].REG.REG6} {top.globalRF.GPR[1].REG.REG7} {top.globalRF.GPR[1].REG.WE} {top.globalRF.GPR[1].REG.WE_temp} {top.globalRF.GPR[1].REG.W} {top.globalRF.GPR[1].REG.W_temp} {top.globalRF.GPR[1].REG.flag1} {top.globalRF.GPR[1].REG.flag2} {top.globalRF.GPR[1].REG.mem_array} }
+
+set _session_group_7 {GPR[0].REG}
+gui_sg_create "$_session_group_7"
+set {GPR[0].REG} "$_session_group_7"
+
+gui_sg_addsignal -group "$_session_group_7" { {top.globalRF.GPR[0].REG.CLOCK} {top.globalRF.GPR[0].REG.IN0} {top.globalRF.GPR[0].REG.IN0_temp} {top.globalRF.GPR[0].REG.OUT1} {top.globalRF.GPR[0].REG.OUT1_temp} {top.globalRF.GPR[0].REG.OUT2} {top.globalRF.GPR[0].REG.OUT2_temp} {top.globalRF.GPR[0].REG.R1} {top.globalRF.GPR[0].REG.R1_temp} {top.globalRF.GPR[0].REG.R2} {top.globalRF.GPR[0].REG.R2_temp} {top.globalRF.GPR[0].REG.RE1} {top.globalRF.GPR[0].REG.RE1_temp} {top.globalRF.GPR[0].REG.RE2} {top.globalRF.GPR[0].REG.RE2_temp} {top.globalRF.GPR[0].REG.REG0} {top.globalRF.GPR[0].REG.REG1} {top.globalRF.GPR[0].REG.REG2} {top.globalRF.GPR[0].REG.REG3} {top.globalRF.GPR[0].REG.REG4} {top.globalRF.GPR[0].REG.REG5} {top.globalRF.GPR[0].REG.REG6} {top.globalRF.GPR[0].REG.REG7} {top.globalRF.GPR[0].REG.WE} {top.globalRF.GPR[0].REG.WE_temp} {top.globalRF.GPR[0].REG.W} {top.globalRF.GPR[0].REG.W_temp} {top.globalRF.GPR[0].REG.flag1} {top.globalRF.GPR[0].REG.flag2} {top.globalRF.GPR[0].REG.mem_array} }
+
+# Global: Highlighting
+
+# Global: Stack
+gui_change_stack_mode -mode list
+
+# Post database loading setting...
+
+# Save global setting...
+
+# Wave/List view global setting
+gui_cov_show_value -switch false
+
+# Close all empty TopLevel windows
+foreach __top [gui_ekki_get_window_ids -type TopLevel] {
+    if { [llength [gui_ekki_get_window_ids -parent $__top]] == 0} {
+        gui_close_window -window $__top
+    }
+}
+gui_set_loading_session_type noSession
+# DVE View/pane content session: 
+
+
+# Hier 'Hier.1'
+gui_show_window -window ${Hier.1}
+gui_list_set_filter -id ${Hier.1} -list { {Package 1} {All 0} {Process 1} {VirtPowSwitch 0} {UnnamedProcess 1} {UDP 0} {Function 1} {Block 1} {SrsnAndSpaCell 0} {OVA Unit 1} {LeafScCell 1} {LeafVlgCell 1} {Interface 1} {LeafVhdCell 1} {$unit 1} {NamedBlock 1} {Task 1} {VlgPackage 1} {ClassDef 1} {VirtIsoCell 0} }
+gui_list_set_filter -id ${Hier.1} -text {*}
+gui_change_design -id ${Hier.1} -design Sim
+catch {gui_list_expand -id ${Hier.1} top}
+catch {gui_list_expand -id ${Hier.1} top.globalRF}
+catch {gui_list_select -id ${Hier.1} {{top.globalRF.GPR[3].REG}}}
+gui_view_scroll -id ${Hier.1} -vertical -set 900
+gui_view_scroll -id ${Hier.1} -horizontal -set 0
+
+# Data 'Data.1'
+gui_list_set_filter -id ${Data.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {LowPower 1} {Parameter 1} {All 1} {Aggregate 1} {LibBaseMember 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {BaseMembers 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
+gui_list_set_filter -id ${Data.1} -text {*}
+gui_list_show_data -id ${Data.1} {top.globalRF.GPR[0].REG}
+gui_view_scroll -id ${Data.1} -vertical -set 0
+gui_view_scroll -id ${Data.1} -horizontal -set 0
+gui_view_scroll -id ${Hier.1} -vertical -set 900
+gui_view_scroll -id ${Hier.1} -horizontal -set 0
+
+# Source 'Source.1'
+gui_src_value_annotate -id ${Source.1} -switch false
+gui_set_env TOGGLE::VALUEANNOTATE 0
+gui_open_source -id ${Source.1}  -replace -active timeunit /home/projects/courses/spring_18/ee382n-16120/lib/time
+gui_view_scroll -id ${Source.1} -vertical -set 0
+gui_src_set_reusable -id ${Source.1}
+
+# View 'Wave.1'
+gui_wv_sync -id ${Wave.1} -switch false
+set groupExD [gui_get_pref_value -category Wave -key exclusiveSG]
+gui_set_pref_value -category Wave -key exclusiveSG -value {false}
+set origWaveHeight [gui_get_pref_value -category Wave -key waveRowHeight]
+gui_list_set_height -id Wave -height 25
+set origGroupCreationState [gui_list_create_group_when_add -wave]
+gui_list_create_group_when_add -wave -disable
+gui_wv_zoom_timerange -id ${Wave.1} 0 170
+gui_list_add_group -id ${Wave.1} -after {New Group} {top}
+gui_list_select -id ${Wave.1} {top.gpr_data }
+gui_seek_criteria -id ${Wave.1} {Any Edge}
+
+
+gui_set_pref_value -category Wave -key exclusiveSG -value $groupExD
+gui_list_set_height -id Wave -height $origWaveHeight
+if {$origGroupCreationState} {
+	gui_list_create_group_when_add -wave -enable
+}
+if { $groupExD } {
+ gui_msg_report -code DVWW028
+}
+gui_list_set_filter -id ${Wave.1} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {Parameter 1} {All 1} {Aggregate 1} {LibBaseMember 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {BaseMembers 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
+gui_list_set_filter -id ${Wave.1} -text {*}
+gui_list_set_insertion_bar  -id ${Wave.1} -group top  -position in
+
+gui_view_scroll -id ${Wave.1} -vertical -set 1416
+gui_show_grid -id ${Wave.1} -enable false
+
+# View 'Wave.2'
+gui_wv_sync -id ${Wave.2} -switch false
+set groupExD [gui_get_pref_value -category Wave -key exclusiveSG]
+gui_set_pref_value -category Wave -key exclusiveSG -value {false}
+set origWaveHeight [gui_get_pref_value -category Wave -key waveRowHeight]
+gui_list_set_height -id Wave -height 25
+set origGroupCreationState [gui_list_create_group_when_add -wave]
+gui_list_create_group_when_add -wave -disable
+gui_wv_zoom_timerange -id ${Wave.2} 0 170
+gui_list_add_group -id ${Wave.2} -after {New Group} {{GPR[3].REG}}
+gui_list_add_group -id ${Wave.2} -after {New Group} {{GPR[2].REG}}
+gui_list_add_group -id ${Wave.2} -after {New Group} {{GPR[1].REG}}
+gui_list_add_group -id ${Wave.2} -after {New Group} {{GPR[0].REG}}
+gui_list_select -id ${Wave.2} {{top.globalRF.GPR[0].REG.REG2} }
+gui_seek_criteria -id ${Wave.2} {Any Edge}
+
+
+
+gui_set_env TOGGLE::DEFAULT_WAVE_WINDOW ${Wave.2}
+gui_set_pref_value -category Wave -key exclusiveSG -value $groupExD
+gui_list_set_height -id Wave -height $origWaveHeight
+if {$origGroupCreationState} {
+	gui_list_create_group_when_add -wave -enable
+}
+if { $groupExD } {
+ gui_msg_report -code DVWW028
+}
+gui_list_set_filter -id ${Wave.2} -list { {Buffer 1} {Input 1} {Others 1} {Linkage 1} {Output 1} {Parameter 1} {All 1} {Aggregate 1} {LibBaseMember 1} {Event 1} {Assertion 1} {Constant 1} {Interface 1} {BaseMembers 1} {Signal 1} {$unit 1} {Inout 1} {Variable 1} }
+gui_list_set_filter -id ${Wave.2} -text {*}
+gui_list_set_insertion_bar  -id ${Wave.2} -group {GPR[0].REG}  -position in
+
+gui_view_scroll -id ${Wave.2} -vertical -set 2407
+gui_show_grid -id ${Wave.2} -enable false
+# Restore toplevel window zorder
+# The toplevel window could be closed if it has no view/pane
+if {[gui_exist_window -window ${TopLevel.1}]} {
+	gui_set_active_window -window ${TopLevel.1}
+	gui_set_active_window -window ${Source.1}
+	gui_set_active_window -window ${HSPane.1}
+}
+if {[gui_exist_window -window ${TopLevel.3}]} {
+	gui_set_active_window -window ${TopLevel.3}
+	gui_set_active_window -window ${Wave.2}
+}
+if {[gui_exist_window -window ${TopLevel.2}]} {
+	gui_set_active_window -window ${TopLevel.2}
+	gui_set_active_window -window ${Wave.1}
+}
+#</Session>
+

@@ -1,0 +1,11 @@
+//
+0x00:    01 c0                    //add    %eax,%eax
+0x02:    01 c0                    //add    %eax,%eax
+0x04:    b8 01 00 00 00           //mov    $0x1,%eax
+0x09:    bf 01 00 00 00           //mov    $0x1,%edi
+//
+0x0e:    ba 0d 00 00 00           //mov    $0xd,%edx
+0x13:    01 c0                    //add    %eax,%eax
+0x15:    bb 3c 00 00 00           //mov    $0x3c,%ebx
+0x1a:    75 f2                    //jne    4000de <.lb>
+0x1c:    f4                       //hlt

@@ -1,0 +1,4214 @@
+EIP:	000000000
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+------------------------------------------
+EIP:	000000002
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000400
+------------------------------------------
+EIP:	000000007
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+SS:	0x0400
+------------------------------------------
+EIP:	000000009
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000800
+------------------------------------------
+EIP:	00000000e
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+EDX:	0x00000a00
+------------------------------------------
+EIP:	000000013
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+DS:	0x0a00
+------------------------------------------
+EIP:	000000015
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+EDX:	0x00000d00
+------------------------------------------
+EIP:	00000001a
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ES:	0x0d00
+------------------------------------------
+EIP:	00000001c
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+EAX:	0x00000001
+------------------------------------------
+EIP:	000000021
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+EBX:	0x00000002
+------------------------------------------
+EIP:	000000026
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ECX:	0x00000003
+------------------------------------------
+EIP:	00000002b
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+Wrote 00000001 to mem 5d00
+Size:3
+------------------------------------------
+EIP:	00000002d
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+Wrote 00000003 to mem 5d04
+Size:3
+------------------------------------------
+EIP:	000000030
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+Wrote 00000002 to mem 5d08
+Size:3
+------------------------------------------
+EIP:	000000033
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+EAX:	0x00000002
+------------------------------------------
+EIP:	000000036
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+EAX:	0x00000003
+------------------------------------------
+EIP:	000000039
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+EAX:	0x00000004
+------------------------------------------
+EIP:	00000003c
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+EBX:	0x00000004
+------------------------------------------
+EIP:	00000003f
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+EBX:	0x00000006
+------------------------------------------
+EIP:	000000042
+EFLAGS
+CF: 0 PF: 0 AF: 0 ZF: 0 SF: 0 OF: 0
+
+EBX:	0x00000008
+------------------------------------------
+EIP:	000000045
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ECX:	0x00000006
+------------------------------------------
+EIP:	000000048
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ECX:	0x00000009
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007fc
+Wrote 00000002 to mem 57fc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007f8
+Wrote 00000002 to mem 57f8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007f4
+Wrote 00000002 to mem 57f4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007f0
+Wrote 00000002 to mem 57f0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007ec
+Wrote 00000002 to mem 57ec
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007e8
+Wrote 00000002 to mem 57e8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007e4
+Wrote 00000002 to mem 57e4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007e0
+Wrote 00000002 to mem 57e0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007dc
+Wrote 00000002 to mem 57dc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007d8
+Wrote 00000002 to mem 57d8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007d4
+Wrote 00000002 to mem 57d4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007d0
+Wrote 00000002 to mem 57d0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007cc
+Wrote 00000002 to mem 57cc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007c8
+Wrote 00000002 to mem 57c8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007c4
+Wrote 00000002 to mem 57c4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007c0
+Wrote 00000002 to mem 57c0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007bc
+Wrote 00000002 to mem 57bc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007b8
+Wrote 00000002 to mem 57b8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007b4
+Wrote 00000002 to mem 57b4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007b0
+Wrote 00000002 to mem 57b0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007ac
+Wrote 00000002 to mem 57ac
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007a8
+Wrote 00000002 to mem 57a8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007a4
+Wrote 00000002 to mem 57a4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000007a0
+Wrote 00000002 to mem 57a0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000079c
+Wrote 00000002 to mem 579c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000798
+Wrote 00000002 to mem 5798
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000794
+Wrote 00000002 to mem 5794
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000790
+Wrote 00000002 to mem 5790
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000078c
+Wrote 00000002 to mem 578c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000788
+Wrote 00000002 to mem 5788
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000784
+Wrote 00000002 to mem 5784
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000780
+Wrote 00000002 to mem 5780
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000077c
+Wrote 00000002 to mem 577c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000778
+Wrote 00000002 to mem 5778
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000774
+Wrote 00000002 to mem 5774
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000770
+Wrote 00000002 to mem 5770
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000076c
+Wrote 00000002 to mem 576c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000768
+Wrote 00000002 to mem 5768
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000764
+Wrote 00000002 to mem 5764
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000760
+Wrote 00000002 to mem 5760
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000075c
+Wrote 00000002 to mem 575c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000758
+Wrote 00000002 to mem 5758
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000754
+Wrote 00000002 to mem 5754
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000750
+Wrote 00000002 to mem 5750
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000074c
+Wrote 00000002 to mem 574c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000748
+Wrote 00000002 to mem 5748
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000744
+Wrote 00000002 to mem 5744
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000740
+Wrote 00000002 to mem 5740
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000073c
+Wrote 00000002 to mem 573c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000738
+Wrote 00000002 to mem 5738
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000734
+Wrote 00000002 to mem 5734
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000730
+Wrote 00000002 to mem 5730
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000072c
+Wrote 00000002 to mem 572c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000728
+Wrote 00000002 to mem 5728
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000724
+Wrote 00000002 to mem 5724
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000720
+Wrote 00000002 to mem 5720
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000071c
+Wrote 00000002 to mem 571c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000718
+Wrote 00000002 to mem 5718
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000714
+Wrote 00000002 to mem 5714
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000710
+Wrote 00000002 to mem 5710
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000070c
+Wrote 00000002 to mem 570c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000708
+Wrote 00000002 to mem 5708
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000704
+Wrote 00000002 to mem 5704
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000700
+Wrote 00000002 to mem 5700
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006fc
+Wrote 00000002 to mem 56fc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006f8
+Wrote 00000002 to mem 56f8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006f4
+Wrote 00000002 to mem 56f4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006f0
+Wrote 00000002 to mem 56f0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006ec
+Wrote 00000002 to mem 56ec
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006e8
+Wrote 00000002 to mem 56e8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006e4
+Wrote 00000002 to mem 56e4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006e0
+Wrote 00000002 to mem 56e0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006dc
+Wrote 00000002 to mem 56dc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006d8
+Wrote 00000002 to mem 56d8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006d4
+Wrote 00000002 to mem 56d4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006d0
+Wrote 00000002 to mem 56d0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006cc
+Wrote 00000002 to mem 56cc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006c8
+Wrote 00000002 to mem 56c8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006c4
+Wrote 00000002 to mem 56c4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006c0
+Wrote 00000002 to mem 56c0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006bc
+Wrote 00000002 to mem 56bc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006b8
+Wrote 00000002 to mem 56b8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006b4
+Wrote 00000002 to mem 56b4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006b0
+Wrote 00000002 to mem 56b0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006ac
+Wrote 00000002 to mem 56ac
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006a8
+Wrote 00000002 to mem 56a8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006a4
+Wrote 00000002 to mem 56a4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000006a0
+Wrote 00000002 to mem 56a0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000069c
+Wrote 00000002 to mem 569c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000698
+Wrote 00000002 to mem 5698
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000694
+Wrote 00000002 to mem 5694
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000690
+Wrote 00000002 to mem 5690
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000068c
+Wrote 00000002 to mem 568c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000688
+Wrote 00000002 to mem 5688
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000684
+Wrote 00000002 to mem 5684
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000680
+Wrote 00000002 to mem 5680
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000067c
+Wrote 00000002 to mem 567c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000678
+Wrote 00000002 to mem 5678
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000674
+Wrote 00000002 to mem 5674
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000670
+Wrote 00000002 to mem 5670
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000066c
+Wrote 00000002 to mem 566c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000668
+Wrote 00000002 to mem 5668
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000664
+Wrote 00000002 to mem 5664
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000660
+Wrote 00000002 to mem 5660
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000065c
+Wrote 00000002 to mem 565c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000658
+Wrote 00000002 to mem 5658
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000654
+Wrote 00000002 to mem 5654
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000650
+Wrote 00000002 to mem 5650
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000064c
+Wrote 00000002 to mem 564c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000648
+Wrote 00000002 to mem 5648
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000644
+Wrote 00000002 to mem 5644
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000640
+Wrote 00000002 to mem 5640
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000063c
+Wrote 00000002 to mem 563c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000638
+Wrote 00000002 to mem 5638
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000634
+Wrote 00000002 to mem 5634
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000630
+Wrote 00000002 to mem 5630
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000062c
+Wrote 00000002 to mem 562c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000628
+Wrote 00000002 to mem 5628
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000624
+Wrote 00000002 to mem 5624
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000620
+Wrote 00000002 to mem 5620
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000061c
+Wrote 00000002 to mem 561c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000618
+Wrote 00000002 to mem 5618
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000614
+Wrote 00000002 to mem 5614
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000610
+Wrote 00000002 to mem 5610
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000060c
+Wrote 00000002 to mem 560c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000608
+Wrote 00000002 to mem 5608
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000604
+Wrote 00000002 to mem 5604
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000600
+Wrote 00000002 to mem 5600
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005fc
+Wrote 00000002 to mem 55fc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005f8
+Wrote 00000002 to mem 55f8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005f4
+Wrote 00000002 to mem 55f4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005f0
+Wrote 00000002 to mem 55f0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005ec
+Wrote 00000002 to mem 55ec
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005e8
+Wrote 00000002 to mem 55e8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005e4
+Wrote 00000002 to mem 55e4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005e0
+Wrote 00000002 to mem 55e0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005dc
+Wrote 00000002 to mem 55dc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005d8
+Wrote 00000002 to mem 55d8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005d4
+Wrote 00000002 to mem 55d4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005d0
+Wrote 00000002 to mem 55d0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005cc
+Wrote 00000002 to mem 55cc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005c8
+Wrote 00000002 to mem 55c8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005c4
+Wrote 00000002 to mem 55c4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005c0
+Wrote 00000002 to mem 55c0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005bc
+Wrote 00000002 to mem 55bc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005b8
+Wrote 00000002 to mem 55b8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005b4
+Wrote 00000002 to mem 55b4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005b0
+Wrote 00000002 to mem 55b0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005ac
+Wrote 00000002 to mem 55ac
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005a8
+Wrote 00000002 to mem 55a8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005a4
+Wrote 00000002 to mem 55a4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000005a0
+Wrote 00000002 to mem 55a0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000059c
+Wrote 00000002 to mem 559c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000598
+Wrote 00000002 to mem 5598
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000594
+Wrote 00000002 to mem 5594
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000590
+Wrote 00000002 to mem 5590
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000058c
+Wrote 00000002 to mem 558c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000588
+Wrote 00000002 to mem 5588
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000584
+Wrote 00000002 to mem 5584
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000580
+Wrote 00000002 to mem 5580
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000057c
+Wrote 00000002 to mem 557c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000578
+Wrote 00000002 to mem 5578
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000574
+Wrote 00000002 to mem 5574
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000570
+Wrote 00000002 to mem 5570
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000056c
+Wrote 00000002 to mem 556c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000568
+Wrote 00000002 to mem 5568
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000564
+Wrote 00000002 to mem 5564
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000560
+Wrote 00000002 to mem 5560
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000055c
+Wrote 00000002 to mem 555c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000558
+Wrote 00000002 to mem 5558
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000554
+Wrote 00000002 to mem 5554
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000550
+Wrote 00000002 to mem 5550
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000054c
+Wrote 00000002 to mem 554c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000548
+Wrote 00000002 to mem 5548
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000544
+Wrote 00000002 to mem 5544
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000540
+Wrote 00000002 to mem 5540
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000053c
+Wrote 00000002 to mem 553c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000538
+Wrote 00000002 to mem 5538
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000534
+Wrote 00000002 to mem 5534
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000530
+Wrote 00000002 to mem 5530
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000052c
+Wrote 00000002 to mem 552c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000528
+Wrote 00000002 to mem 5528
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000524
+Wrote 00000002 to mem 5524
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000520
+Wrote 00000002 to mem 5520
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000051c
+Wrote 00000002 to mem 551c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000518
+Wrote 00000002 to mem 5518
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000514
+Wrote 00000002 to mem 5514
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000510
+Wrote 00000002 to mem 5510
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000050c
+Wrote 00000002 to mem 550c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000508
+Wrote 00000002 to mem 5508
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000504
+Wrote 00000002 to mem 5504
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000500
+Wrote 00000002 to mem 5500
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004fc
+Wrote 00000002 to mem 54fc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004f8
+Wrote 00000002 to mem 54f8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004f4
+Wrote 00000002 to mem 54f4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004f0
+Wrote 00000002 to mem 54f0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004ec
+Wrote 00000002 to mem 54ec
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004e8
+Wrote 00000002 to mem 54e8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004e4
+Wrote 00000002 to mem 54e4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004e0
+Wrote 00000002 to mem 54e0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004dc
+Wrote 00000002 to mem 54dc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004d8
+Wrote 00000002 to mem 54d8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004d4
+Wrote 00000002 to mem 54d4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004d0
+Wrote 00000002 to mem 54d0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004cc
+Wrote 00000002 to mem 54cc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004c8
+Wrote 00000002 to mem 54c8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004c4
+Wrote 00000002 to mem 54c4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004c0
+Wrote 00000002 to mem 54c0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004bc
+Wrote 00000002 to mem 54bc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004b8
+Wrote 00000002 to mem 54b8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004b4
+Wrote 00000002 to mem 54b4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004b0
+Wrote 00000002 to mem 54b0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004ac
+Wrote 00000002 to mem 54ac
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004a8
+Wrote 00000002 to mem 54a8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004a4
+Wrote 00000002 to mem 54a4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000004a0
+Wrote 00000002 to mem 54a0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000049c
+Wrote 00000002 to mem 549c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000498
+Wrote 00000002 to mem 5498
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000494
+Wrote 00000002 to mem 5494
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000490
+Wrote 00000002 to mem 5490
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000048c
+Wrote 00000002 to mem 548c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000488
+Wrote 00000002 to mem 5488
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000484
+Wrote 00000002 to mem 5484
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000480
+Wrote 00000002 to mem 5480
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000047c
+Wrote 00000002 to mem 547c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000478
+Wrote 00000002 to mem 5478
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000474
+Wrote 00000002 to mem 5474
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000470
+Wrote 00000002 to mem 5470
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000046c
+Wrote 00000002 to mem 546c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000468
+Wrote 00000002 to mem 5468
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000464
+Wrote 00000002 to mem 5464
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000460
+Wrote 00000002 to mem 5460
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000045c
+Wrote 00000002 to mem 545c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000458
+Wrote 00000002 to mem 5458
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000454
+Wrote 00000002 to mem 5454
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000450
+Wrote 00000002 to mem 5450
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000044c
+Wrote 00000002 to mem 544c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000448
+Wrote 00000002 to mem 5448
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000444
+Wrote 00000002 to mem 5444
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000440
+Wrote 00000002 to mem 5440
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000043c
+Wrote 00000002 to mem 543c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000438
+Wrote 00000002 to mem 5438
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000434
+Wrote 00000002 to mem 5434
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000430
+Wrote 00000002 to mem 5430
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000042c
+Wrote 00000002 to mem 542c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000428
+Wrote 00000002 to mem 5428
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000424
+Wrote 00000002 to mem 5424
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000420
+Wrote 00000002 to mem 5420
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000041c
+Wrote 00000002 to mem 541c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000418
+Wrote 00000002 to mem 5418
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000414
+Wrote 00000002 to mem 5414
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000410
+Wrote 00000002 to mem 5410
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000040c
+Wrote 00000002 to mem 540c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000408
+Wrote 00000002 to mem 5408
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000404
+Wrote 00000002 to mem 5404
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000400
+Wrote 00000002 to mem 5400
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003fc
+Wrote 00000002 to mem 53fc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003f8
+Wrote 00000002 to mem 53f8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003f4
+Wrote 00000002 to mem 53f4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003f0
+Wrote 00000002 to mem 53f0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003ec
+Wrote 00000002 to mem 53ec
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003e8
+Wrote 00000002 to mem 53e8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003e4
+Wrote 00000002 to mem 53e4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003e0
+Wrote 00000002 to mem 53e0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003dc
+Wrote 00000002 to mem 53dc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003d8
+Wrote 00000002 to mem 53d8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003d4
+Wrote 00000002 to mem 53d4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003d0
+Wrote 00000002 to mem 53d0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003cc
+Wrote 00000002 to mem 53cc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003c8
+Wrote 00000002 to mem 53c8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003c4
+Wrote 00000002 to mem 53c4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003c0
+Wrote 00000002 to mem 53c0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003bc
+Wrote 00000002 to mem 53bc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003b8
+Wrote 00000002 to mem 53b8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003b4
+Wrote 00000002 to mem 53b4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003b0
+Wrote 00000002 to mem 53b0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003ac
+Wrote 00000002 to mem 53ac
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003a8
+Wrote 00000002 to mem 53a8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003a4
+Wrote 00000002 to mem 53a4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000003a0
+Wrote 00000002 to mem 53a0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000039c
+Wrote 00000002 to mem 539c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000398
+Wrote 00000002 to mem 5398
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000394
+Wrote 00000002 to mem 5394
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000390
+Wrote 00000002 to mem 5390
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000038c
+Wrote 00000002 to mem 538c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000388
+Wrote 00000002 to mem 5388
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000384
+Wrote 00000002 to mem 5384
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000380
+Wrote 00000002 to mem 5380
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000037c
+Wrote 00000002 to mem 537c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000378
+Wrote 00000002 to mem 5378
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000374
+Wrote 00000002 to mem 5374
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000370
+Wrote 00000002 to mem 5370
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000036c
+Wrote 00000002 to mem 536c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000368
+Wrote 00000002 to mem 5368
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000364
+Wrote 00000002 to mem 5364
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000360
+Wrote 00000002 to mem 5360
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000035c
+Wrote 00000002 to mem 535c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000358
+Wrote 00000002 to mem 5358
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000354
+Wrote 00000002 to mem 5354
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000350
+Wrote 00000002 to mem 5350
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000034c
+Wrote 00000002 to mem 534c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000348
+Wrote 00000002 to mem 5348
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000344
+Wrote 00000002 to mem 5344
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000340
+Wrote 00000002 to mem 5340
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000033c
+Wrote 00000002 to mem 533c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000338
+Wrote 00000002 to mem 5338
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000334
+Wrote 00000002 to mem 5334
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000330
+Wrote 00000002 to mem 5330
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000032c
+Wrote 00000002 to mem 532c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000328
+Wrote 00000002 to mem 5328
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000324
+Wrote 00000002 to mem 5324
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000320
+Wrote 00000002 to mem 5320
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000031c
+Wrote 00000002 to mem 531c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000318
+Wrote 00000002 to mem 5318
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000314
+Wrote 00000002 to mem 5314
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000310
+Wrote 00000002 to mem 5310
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000030c
+Wrote 00000002 to mem 530c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000308
+Wrote 00000002 to mem 5308
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000304
+Wrote 00000002 to mem 5304
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000300
+Wrote 00000002 to mem 5300
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002fc
+Wrote 00000002 to mem 52fc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002f8
+Wrote 00000002 to mem 52f8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002f4
+Wrote 00000002 to mem 52f4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002f0
+Wrote 00000002 to mem 52f0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002ec
+Wrote 00000002 to mem 52ec
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002e8
+Wrote 00000002 to mem 52e8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002e4
+Wrote 00000002 to mem 52e4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002e0
+Wrote 00000002 to mem 52e0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002dc
+Wrote 00000002 to mem 52dc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002d8
+Wrote 00000002 to mem 52d8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002d4
+Wrote 00000002 to mem 52d4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002d0
+Wrote 00000002 to mem 52d0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002cc
+Wrote 00000002 to mem 52cc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002c8
+Wrote 00000002 to mem 52c8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002c4
+Wrote 00000002 to mem 52c4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002c0
+Wrote 00000002 to mem 52c0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002bc
+Wrote 00000002 to mem 52bc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002b8
+Wrote 00000002 to mem 52b8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002b4
+Wrote 00000002 to mem 52b4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002b0
+Wrote 00000002 to mem 52b0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002ac
+Wrote 00000002 to mem 52ac
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002a8
+Wrote 00000002 to mem 52a8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002a4
+Wrote 00000002 to mem 52a4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000002a0
+Wrote 00000002 to mem 52a0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000029c
+Wrote 00000002 to mem 529c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000298
+Wrote 00000002 to mem 5298
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000294
+Wrote 00000002 to mem 5294
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000290
+Wrote 00000002 to mem 5290
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000028c
+Wrote 00000002 to mem 528c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000288
+Wrote 00000002 to mem 5288
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000284
+Wrote 00000002 to mem 5284
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000280
+Wrote 00000002 to mem 5280
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000027c
+Wrote 00000002 to mem 527c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000278
+Wrote 00000002 to mem 5278
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000274
+Wrote 00000002 to mem 5274
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000270
+Wrote 00000002 to mem 5270
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000026c
+Wrote 00000002 to mem 526c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000268
+Wrote 00000002 to mem 5268
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000264
+Wrote 00000002 to mem 5264
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000260
+Wrote 00000002 to mem 5260
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000025c
+Wrote 00000002 to mem 525c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000258
+Wrote 00000002 to mem 5258
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000254
+Wrote 00000002 to mem 5254
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000250
+Wrote 00000002 to mem 5250
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000024c
+Wrote 00000002 to mem 524c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000248
+Wrote 00000002 to mem 5248
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000244
+Wrote 00000002 to mem 5244
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000240
+Wrote 00000002 to mem 5240
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000023c
+Wrote 00000002 to mem 523c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000238
+Wrote 00000002 to mem 5238
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000234
+Wrote 00000002 to mem 5234
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000230
+Wrote 00000002 to mem 5230
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000022c
+Wrote 00000002 to mem 522c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000228
+Wrote 00000002 to mem 5228
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000224
+Wrote 00000002 to mem 5224
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000220
+Wrote 00000002 to mem 5220
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000021c
+Wrote 00000002 to mem 521c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000218
+Wrote 00000002 to mem 5218
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000214
+Wrote 00000002 to mem 5214
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000210
+Wrote 00000002 to mem 5210
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000020c
+Wrote 00000002 to mem 520c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000208
+Wrote 00000002 to mem 5208
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000204
+Wrote 00000002 to mem 5204
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000200
+Wrote 00000002 to mem 5200
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001fc
+Wrote 00000002 to mem 51fc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001f8
+Wrote 00000002 to mem 51f8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001f4
+Wrote 00000002 to mem 51f4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001f0
+Wrote 00000002 to mem 51f0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001ec
+Wrote 00000002 to mem 51ec
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001e8
+Wrote 00000002 to mem 51e8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001e4
+Wrote 00000002 to mem 51e4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001e0
+Wrote 00000002 to mem 51e0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001dc
+Wrote 00000002 to mem 51dc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001d8
+Wrote 00000002 to mem 51d8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001d4
+Wrote 00000002 to mem 51d4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001d0
+Wrote 00000002 to mem 51d0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001cc
+Wrote 00000002 to mem 51cc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001c8
+Wrote 00000002 to mem 51c8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001c4
+Wrote 00000002 to mem 51c4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001c0
+Wrote 00000002 to mem 51c0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001bc
+Wrote 00000002 to mem 51bc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001b8
+Wrote 00000002 to mem 51b8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001b4
+Wrote 00000002 to mem 51b4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001b0
+Wrote 00000002 to mem 51b0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001ac
+Wrote 00000002 to mem 51ac
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001a8
+Wrote 00000002 to mem 51a8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001a4
+Wrote 00000002 to mem 51a4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000001a0
+Wrote 00000002 to mem 51a0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000019c
+Wrote 00000002 to mem 519c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000198
+Wrote 00000002 to mem 5198
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000194
+Wrote 00000002 to mem 5194
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000190
+Wrote 00000002 to mem 5190
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000018c
+Wrote 00000002 to mem 518c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000188
+Wrote 00000002 to mem 5188
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000184
+Wrote 00000002 to mem 5184
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000180
+Wrote 00000002 to mem 5180
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000017c
+Wrote 00000002 to mem 517c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000178
+Wrote 00000002 to mem 5178
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000174
+Wrote 00000002 to mem 5174
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000170
+Wrote 00000002 to mem 5170
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000016c
+Wrote 00000002 to mem 516c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000168
+Wrote 00000002 to mem 5168
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000164
+Wrote 00000002 to mem 5164
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000160
+Wrote 00000002 to mem 5160
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000015c
+Wrote 00000002 to mem 515c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000158
+Wrote 00000002 to mem 5158
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000154
+Wrote 00000002 to mem 5154
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000150
+Wrote 00000002 to mem 5150
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000014c
+Wrote 00000002 to mem 514c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000148
+Wrote 00000002 to mem 5148
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000144
+Wrote 00000002 to mem 5144
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000140
+Wrote 00000002 to mem 5140
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000013c
+Wrote 00000002 to mem 513c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000138
+Wrote 00000002 to mem 5138
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000134
+Wrote 00000002 to mem 5134
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000130
+Wrote 00000002 to mem 5130
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000012c
+Wrote 00000002 to mem 512c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000128
+Wrote 00000002 to mem 5128
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000124
+Wrote 00000002 to mem 5124
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000120
+Wrote 00000002 to mem 5120
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000011c
+Wrote 00000002 to mem 511c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000118
+Wrote 00000002 to mem 5118
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000114
+Wrote 00000002 to mem 5114
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000110
+Wrote 00000002 to mem 5110
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000010c
+Wrote 00000002 to mem 510c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000108
+Wrote 00000002 to mem 5108
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000104
+Wrote 00000002 to mem 5104
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000100
+Wrote 00000002 to mem 5100
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000fc
+Wrote 00000002 to mem 50fc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000f8
+Wrote 00000002 to mem 50f8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000f4
+Wrote 00000002 to mem 50f4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000f0
+Wrote 00000002 to mem 50f0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000ec
+Wrote 00000002 to mem 50ec
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000e8
+Wrote 00000002 to mem 50e8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000e4
+Wrote 00000002 to mem 50e4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000e0
+Wrote 00000002 to mem 50e0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000dc
+Wrote 00000002 to mem 50dc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000d8
+Wrote 00000002 to mem 50d8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000d4
+Wrote 00000002 to mem 50d4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000d0
+Wrote 00000002 to mem 50d0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000cc
+Wrote 00000002 to mem 50cc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000c8
+Wrote 00000002 to mem 50c8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000c4
+Wrote 00000002 to mem 50c4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000c0
+Wrote 00000002 to mem 50c0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000bc
+Wrote 00000002 to mem 50bc
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000b8
+Wrote 00000002 to mem 50b8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000b4
+Wrote 00000002 to mem 50b4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000b0
+Wrote 00000002 to mem 50b0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000ac
+Wrote 00000002 to mem 50ac
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000a8
+Wrote 00000002 to mem 50a8
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000a4
+Wrote 00000002 to mem 50a4
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x000000a0
+Wrote 00000002 to mem 50a0
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000009c
+Wrote 00000002 to mem 509c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000098
+Wrote 00000002 to mem 5098
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000094
+Wrote 00000002 to mem 5094
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000090
+Wrote 00000002 to mem 5090
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000008c
+Wrote 00000002 to mem 508c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000088
+Wrote 00000002 to mem 5088
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000084
+Wrote 00000002 to mem 5084
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000080
+Wrote 00000002 to mem 5080
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000007c
+Wrote 00000002 to mem 507c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000078
+Wrote 00000002 to mem 5078
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000074
+Wrote 00000002 to mem 5074
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000070
+Wrote 00000002 to mem 5070
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000006c
+Wrote 00000002 to mem 506c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000068
+Wrote 00000002 to mem 5068
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000064
+Wrote 00000002 to mem 5064
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000060
+Wrote 00000002 to mem 5060
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000005c
+Wrote 00000002 to mem 505c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000058
+Wrote 00000002 to mem 5058
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000054
+Wrote 00000002 to mem 5054
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000050
+Wrote 00000002 to mem 5050
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000004c
+Wrote 00000002 to mem 504c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000048
+Wrote 00000002 to mem 5048
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000044
+Wrote 00000002 to mem 5044
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000040
+Wrote 00000002 to mem 5040
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000003c
+Wrote 00000002 to mem 503c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000038
+Wrote 00000002 to mem 5038
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000034
+Wrote 00000002 to mem 5034
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000030
+Wrote 00000002 to mem 5030
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000002c
+Wrote 00000002 to mem 502c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000028
+Wrote 00000002 to mem 5028
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000024
+Wrote 00000002 to mem 5024
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000020
+Wrote 00000002 to mem 5020
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000001c
+Wrote 00000002 to mem 501c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000018
+Wrote 00000002 to mem 5018
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000014
+Wrote 00000002 to mem 5014
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000010
+Wrote 00000002 to mem 5010
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x0000000c
+Wrote 00000002 to mem 500c
+Size:3
+------------------------------------------
+EIP:	00000004b
+EFLAGS
+CF: 0 PF: 1 AF: 0 ZF: 0 SF: 0 OF: 0
+
+ESP:	0x00000008
+Wrote 00000002 to mem 5008
+Size:3
+------------------------------------------
